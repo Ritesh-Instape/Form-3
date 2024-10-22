@@ -78,8 +78,13 @@ const FormAll = () => {
   function handleReset() {
     setValue("empcode", "");
     setValue("firstname", "");
+    setValue("middlename", "");
+    setValue("lastname", "");
     setValue("email", "");
     setValue("mobilenumber", "");
+    setValue("fathername", "");
+    setValue("designation", "");
+    setValue("dcode", "");
     setValue("salary", "");
     setValue("dob", null);
     setValue("doj", null);
@@ -91,6 +96,8 @@ const FormAll = () => {
     setValue("ocity", "");
     setValue("ostate", "");
     setValue("oaddress1", "");
+    setValue("oaddress2", "");
+    setValue("oaddress3", "");
     setValue("pincode", "");
     setValue("estatus", "");
   }
